@@ -6,6 +6,8 @@ import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri"
 import { SiHtml5, SiLaravel, SiPhp, SiTypescript } from "react-icons/si"
 import { FaBootstrap, FaJs, FaPhp, FaVuejs } from "react-icons/fa"
 import { CardWorks } from "./cards/Card-works"
+import { CardWorks2 } from "./cards/Card-works2"
+import { CardWorks3 } from "./cards/Card-works3"
 
 export const Projects = () => {
     return (
@@ -36,10 +38,8 @@ export const Projects = () => {
                         </div>
                     </div>
                     <CardWorks />
-                    <CardWorks />
-                    <CardWorks />
-                    <CardWorks />
-                    <CardWorks />
+                    <CardWorks2/>
+                    <CardWorks3/>
                 </div>
             </div>
         </Element>

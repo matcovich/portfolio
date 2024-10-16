@@ -1,12 +1,12 @@
 'use client'
 import { useEffect, useState } from 'react';
-
-import MenuIcon from "./MenuIcon"
 import { Link } from 'react-scroll';
 import { SelectLenguage } from '../selectlenguage/SelectLenguage';
 import { useTranslations } from 'next-intl';
 import { FaArrowUp } from 'react-icons/fa6';
 
+import { useUIStore } from "@/store/ui/ui-store";
+import { GiHamburgerMenu } from 'react-icons/gi';
 
 
 export const TopMenu = () => {
@@ -14,7 +14,7 @@ export const TopMenu = () => {
     const t = useTranslations("Menu");
 
     const [isScrolled, setIsScrolled] = useState(false);
-
+    const openSideMenu = useUIStore((state) => state.openSideMenu);
     useEffect(() => {
         const handleScroll = () => {
             if (window.scrollY > 250) {
@@ -37,10 +37,15 @@ export const TopMenu = () => {
             <nav className={` fixed top-0 w-full h-[94px] z-[6] transition duration-300 ease-in-out ${isScrolled ? 'bg-black bg-opacity-65' : ''}`}>
                 <div className="container mx-auto px-4 py-6 flex justify-center md:justify-between items-center w-full h-[94px]">
                     {/**Logo */}
-                    <MenuIcon />
+                    <button
+                    className="absolute right-4 top-5 "
+                    onClick={openSideMenu}
+                    >
+                        <GiHamburgerMenu size={40}  className={isScrolled ? 'text-white' : 'text-black'} />
+                    </button>
                     <div className="">
                         <Link to="inicio" spy={true} smooth={true} offset={0} duration={500}>
-                            <span className='text-3xl font-extralight'>HMG</span>
+                            <span className={`text-3xl font-extralight ${isScrolled ? 'text-white' : 'text-black'}`}>HMG</span>
                         </Link>
                     </div>
 

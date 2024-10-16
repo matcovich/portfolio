@@ -10,6 +10,7 @@ export default function Home() {
       <Inicio/>
       <About/>
       <Projects/>
+      <Contacto/>
     </div>
   );
 }

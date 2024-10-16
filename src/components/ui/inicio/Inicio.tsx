@@ -12,7 +12,7 @@ export const Inicio = () => {
     const t = useTranslations("HomePage");
     return (
         <Element name="inicio">
-            <div  className=" h-[calc(100vh-94px)] w-full md:h-[calc(100vh)] inset-0  flex flex-col md:flex-row-reverse   items-center justify-around z-0 ">
+            <div  className=" h-[calc(100vh-94px)] w-full md:h-[calc(100vh)] inset-0  flex flex-col md:flex-row   items-center justify-around z-0 ">
                 <div className="[clip-path:circle(69%_at_81%_120%)] 
                 absolute top-0 w-full h-full bg-[#5341c811]  z-[2]"></div>
                 <div className="[clip-path:circle(69%_at_1%_160%)] 

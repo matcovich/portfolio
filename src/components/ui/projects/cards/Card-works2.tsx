@@ -12,7 +12,7 @@ import { Pagination, Scrollbar, A11y, Navigation } from 'swiper/modules';
 import {Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css';
 import 'swiper/css/pagination';
-export const CardWorks = () => {
+export const CardWorks2 = () => {
     const {isOpen, onOpen, onOpenChange} = useDisclosure();
     return (
         <>
@@ -28,21 +28,21 @@ export const CardWorks = () => {
                         alt="portfolio"
                         className="object-cover rounded-none object-top"
                         height={275}
-                        src="/img/quinzio.jpg"
+                        src="/img/coyc.png"
                         width="100%"
                         />
                     </div>
 
                     <div className="flex flex-col col-span-6 md:col-span-8 justify-center items-start  h-full">
                         <div className=" flex flex-col gap-1 shrink-0">
-                            <h3 className="text-large font-bold">Quinzio-LPC</h3>
+                            <h3 className="text-large font-bold">COYC - Landing Page</h3>
                             <p className="text-small text-foreground/80 text-gray-400">Proyecto freelance </p>
                         </div>
                         <div className="flex flex-col items-start    h-full">
-
                             <p className="text-[14px] text-foreground/90 mt-2 text-balance ">
-                            Proyecto freelance para Quinzio LPC, una firma de abogados con una reconocida trayectoria en la industria de los recursos naturales. Desarrollé el sitio web con un enfoque en la experiencia de usuario, asegurando una navegación fluida y accesible en dispositivos móviles y de escritorio, para reflejar la visión integral y estratégica de la firma.
+                            Proyecto freelance para COYC, una empresa de abogados boutique que requiria una landing page multi lenguaje.
                             </p>
+                            <p className='text-[14px] text-foreground/90 mt-2 text-balance' >Desarrollé una landing page moderna y atractiva para COYC, con el objetivo de presentar la misión y visión de la organización de manera clara y concisa. La página cuenta con una estructura minimalista y fácil de navegar, con un enfoque en la experiencia del usuario y la conversión de leads.</p>
                         </div>
 
                         <div className=" flex w-full items-center justify-between mt-8 shrink-0">
@@ -83,30 +83,21 @@ export const CardWorks = () => {
                             clickable: true,
                             }}
                         >
-                            <SwiperSlide><Image alt="portfolio" className="object-cover rounded-none object-top" height={275} src="/img/quinzio.png" width="100%" /></SwiperSlide>
-                            <SwiperSlide><Image alt="portfolio" className="object-cover rounded-none object-top" height={275} src="/img/quinzio.jpg" width="100%" /></SwiperSlide>
-                            <SwiperSlide><Image alt="portfolio" className="object-cover rounded-none object-top" height={275} src="/img/equipoquinzio.jpg" width="100%" /></SwiperSlide>
-                            <SwiperSlide><Image alt="portfolio" className="object-cover rounded-none object-top" height={275} src="/img/areasqinzio.jpg" width="100%" /></SwiperSlide>
-                            <SwiperSlide><Image alt="portfolio" className="object-cover rounded-none object-top" height={275} src="/img/ventajasquinzio.jpg" width="100%" /></SwiperSlide>
+                            <SwiperSlide><Image alt="portfolio" className="object-cover rounded-none object-top" height={275} src="/img/coyc.png" width="100%" /></SwiperSlide>
+                            <SwiperSlide><Image alt="portfolio" className="object-cover rounded-none object-top" height={275} src="/img/coycb.jpg" width="100%" /></SwiperSlide>
                         </Swiper>
                     </div>
 
-                    <p>
-                    Proyecto freelance para Quinzio LPC, una firma de abogados con una reconocida trayectoria en la industria de los recursos naturales. Desarrollé el sitio web con un enfoque en la experiencia de usuario, asegurando una navegación fluida y accesible en dispositivos móviles y de escritorio, para reflejar la visión integral y estratégica de la firma.
-                    </p>
-                    <p>
-                    El desarrollo incluyó la implementación de un diseño moderno y optimizado utilizando React y Tailwind CSS, así como técnicas de optimización de rendimiento para mejorar la velocidad de carga. El resultado es una plataforma escalable que fortalece la presencia digital de Quinzio LPC, facilitando el acceso a sus servicios legales y recursos.
-                    </p>
-                    <p>
-                    El sitio web destaca la experiencia de la firma y su papel como socio legal para afrontar los desafíos y oportunidades en el sector de los recursos naturales, ofreciendo una experiencia alineada con los valores y la trayectoria de la empresa.
-                    </p>
+                    <p>Proyecto freelance para COYC, una firma de abogados boutique que necesitaba una landing page multi-lenguaje en inglés y chino. El objetivo principal fue presentar la misión y visión de la firma de manera clara y accesible para una audiencia global.</p>
+                    <p>Desarrollé una landing page moderna y minimalista utilizando Next.js y React, enfocándome en una navegación intuitiva y una experiencia de usuario fluida. La página está optimizada para cargar rápidamente y adaptarse a dispositivos móviles, lo que asegura una presentación efectiva de los servicios legales de COYC.</p>
+                    <p>La implementación multi-lenguaje con i18n permite a los usuarios cambiar de idioma fácilmente, lo que refuerza la accesibilidad y el alcance internacional de la firma. El diseño limpio y funcional facilita la conversión de leads y destaca la propuesta de valor de COYC en el mercado legal.</p>
                 </ModalBody>
                 <ModalFooter>
                     <Button color="danger" variant="light" onPress={onClose}>
                     Cerrar
                     </Button>
                     <Button color="primary" variant="light" onPress={onClose}>
-                        <a target="_blank" href="https://quinziolpc.cl/" >
+                        <a target="_blank" href="https://coyc.vercel.app/es" >
                         Ver sitio
                         </a>
                     </Button>
