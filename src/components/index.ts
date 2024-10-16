@@ -2,7 +2,6 @@
 export * from "./ui/inicio/Inicio";
 export * from "./ui/about/About";
 export * from "./ui/projects/Projects";
-export * from "./ui/projects/items/Items";
 
 
 export * from "./ui/contacto/Contacto";

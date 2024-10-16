@@ -14,7 +14,6 @@ export const About = () => {
                     A lo largo de mi carrera, he trabajado en entornos ágiles, participando activamente en la gestión de tareas con herramientas como Jira, y colaborando estrechamente con diseñadores para el desarrollo de interfaces utilizando herramientas como Figma. Además, estoy constantemente aprendiendo nuevas tecnologías para mantenerme actualizado y poder contribuir de manera efectiva en proyectos colaborativos.
                     </p>
                 </div>
-                
             </div>
         </Element>
     )

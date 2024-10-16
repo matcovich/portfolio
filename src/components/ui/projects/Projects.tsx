@@ -1,6 +1,5 @@
 'use client'
 import { Element } from "react-scroll"
-import Items from "./items/Items"
 import { DiCss3, DiReact } from "react-icons/di"
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri"
 import { SiHtml5, SiLaravel, SiPhp, SiTypescript } from "react-icons/si"

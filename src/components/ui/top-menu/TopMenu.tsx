@@ -1,8 +1,6 @@
 'use client'
 import { useEffect, useState } from 'react';
 import { Link } from 'react-scroll';
-import { SelectLenguage } from '../selectlenguage/SelectLenguage';
-import { useTranslations } from 'next-intl';
 import { FaArrowUp } from 'react-icons/fa6';
 
 import { useUIStore } from "@/store/ui/ui-store";
@@ -10,8 +8,6 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 
 
 export const TopMenu = () => {
-
-    const t = useTranslations("Menu");
 
     const [isScrolled, setIsScrolled] = useState(false);
     const openSideMenu = useUIStore((state) => state.openSideMenu);
@@ -49,39 +45,6 @@ export const TopMenu = () => {
                         </Link>
                     </div>
 
-                    {/**Menu */}
-
-                    <div className={`hidden font-normal gap-3 lg:gap-9 text-red-500 lg:text-lg   justify-center items-center`}>
-                        <Link to="inicio" spy={true} smooth={true} offset={0} duration={500}
-                            className={`hover:text-orange-200 cursor-pointer`}
-                        >
-                            <span>{t('home')}</span>
-                        </Link>
-                        <Link to="nosotros" spy={true} smooth={true} offset={-94} duration={500}
-                            className={`hover:text-orange-200 cursor-pointer`}
-                        >
-                            <span>{t('about')}</span>
-                        </Link>
-                        <Link to="equipo" spy={true} smooth={true} offset={-94} duration={500}
-                            className={`hover:text-orange-200 cursor-pointer`}
-                        >
-                            <span>{t('team')}</span>
-                        </Link>
-
-                        <Link to="servicios" spy={true} smooth={true} offset={4} duration={500}
-                            className={`hover:text-orange-200 cursor-pointer`}
-                        >
-                            <span>{t('services')}</span>
-                        </Link>
-
-                        <Link to="contacto" spy={true} smooth={true} offset={-94} duration={500}
-                            className={`hover:text-orange-200 cursor-pointer`}
-                        >
-                            <span>{t('contact')}</span>
-                        </Link>
-
-                        <SelectLenguage />
-                    </div>
 
                 </div>
 

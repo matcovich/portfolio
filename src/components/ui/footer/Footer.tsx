@@ -1,15 +1,8 @@
 
-import { useTranslations } from 'next-intl'
-import Image from 'next/image'
-import Link from 'next/link'
-import { BiHeart, BiHeartCircle } from 'react-icons/bi'
-import { BsHeart } from 'react-icons/bs'
 import { FaHeart } from 'react-icons/fa'
-import { FaInstagram, FaLinkedin, FaRegCopyright } from 'react-icons/fa6'
-import { MdMail, MdPlace } from 'react-icons/md'
+import { FaRegCopyright } from 'react-icons/fa6'
 
 export default function Footer() {
-    const t = useTranslations("Footer")
     return (
         <footer className="bg-[#1d0d3c] text-white z-[2]">
             <div  className={'container mx-auto px-4 pt-6'}>

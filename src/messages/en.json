@@ -1,70 +1,18 @@
 {
     "Menu": {
-        "home": "Home",
-        "about": "About",
-        "team": "The team",
-        "services": "Services",
-        "contact": "Contact",
-        "idioma": "Language",
-        "es": "Spanish",
-        "en": "English",
-        "zc": "Chinese (coming soon)"
+        "home": "Inicio",
+        "about": "Sobre mi",
+        "projects": "Proyectos",
+        "contact": "Contacto",
+        "idioma": "Idioma",
+        "es": "Español",
+        "en": "Ingles (proximamente)",
+        "zc": "Chino (proximamente)"
     },
     "HomePage": {
-        "title": "We are experts in mining",
-        "subtitle": "and its regulation.",
-        "button": "Meet our services",
-        "button2": "Contact us"
-    },
-    "Nosotros": {
-        "title": " About us",
-        "frase": "We are experts",
-        "frase2": "in mining",
-        "parrafo1":" We are a boutique law firm specialized and focused on the mining industry and mining regulation. We were founded with the aim of leveraging the knowledge and experience of our members in leadership roles linked to the mining industry, both in the public and private sectors, which has allowed us to achieve recognition from the market and our clients.",
-        "parrafo2":"The work that is usually carried out in the office corresponds to supporting mining companies in regulatory compliance in their operations, whatever the phase of development of the project, whether to comply with current regulatory standards, explaining the regulatory risks of strategic decisions, or advising on how to reduce public burdens as much as possible within the mining regulatory framework, without prejudice to the sustainability and public relations objectives of the company.",
-        "parrafo3":"The above, with a strategic approach, considering the political reality and the effects of decisions on future projects."
-    },
-
-    "Equipo": {
-        "title": "El equipo",
-        "socios": {
-            "socio1": "José Manuel Correa",
-            "cargo1": "Socio fundador COYC",
-            "titulobiografia":"Acerca de",
-            "biografiaSocio1A": "José Manuel ha centrado prácticamente toda su vida laboral en el sector minero. Primero en oficinas de abogado con dicha área de práctica, y luego como abogado y después como fiscal del Servicio Nacional de Geologia y Mineria. Desde el año 2021 presta asesorias directas principalmente a empresas mineras en asuntos relacionados con cumplimiento de sus obligaciones legales vinculadas a sus operaciones.",
-            "biografiaSocio1B": "Es abogado de la Universidad Católica de Chile, Master of Law de la Universidad de Melbourne, Australia, y desde el año 2019 es profesor de derecho minero en el Diplomado de Derecho de Recursos Naturales de la Universidad Católica. Además, es miembro de la Energy and Resources Association (Erlaw) del Australia.",
-
-            "socio2": "Felipe Curia Miranda",
-            "cargo2": "Socio fundador COYC",
-            "biografiaSocio2A": "Felipe Curia ha desarrollado su práctica profesional prestando asesoría tanto en el sector público como privado. Durante los últimos 10 años trabajó en el Ministerio de Minería, como Jefe del Departamento de Asuntos Legislativos y Regulatorios y como Jefe de División Jurídica, estando a cargo de los proyectos de ley y los procesos reglamentarios que correspondían a dicha secretaría de Estado. Asimismo, le correspondió materializar los Contratos Especiales de Operación de Litio (CEOL) que hoy se mantienen vigentes.",
-            "biografiaSocio2B": "Es abogado y Magister en Derecho Ambiental, de la Universidad del Desarrollo, cuenta con Diplomados en Derecho Administrativo Sancionador, de la Pontificia Universidad Católica de Valparaíso; Recursos Naturales y Medio Ambiente, de la Universidad de Los Andes; Propiedad Industrial e Intelectual, de la Pontificia Universidad Católica de Chile y, Derecho Laboral de la Empresa, de la Universidad de Los Andes.",
-            "biografiaSocio2C": "Además, desarrolla actividades de docencia, en el Diplomado de Derecho Minero, de la Universidad Adolfo Ibáñez y en el Diplomado de Derecho de Recursos Naturales, de la Pontificia Universidad Católica."
-
-        },
-        "Contacto": {
-            "title": "Contacto",
-            "correoSocio1": "fcuria@coyc.cl",
-            "linkedinSocio1": "fcuria.coyc.cl",
-            "fonoSocio1": "+56 9 65891549",
-            "direccionSocio1": "Apoquindo N°3910 piso 10, Las Condes ",
-
-            "correoSocio2": "fcuria@coyc.cl",
-            "linkedinSocio2": "fcuria.coyc.cl",
-            "fonoSocio2": "+56 9 65891549",
-            "direccionSocio2": "Apoquindo N°3910 piso 10, Las Condes "
-        }
-    },
-
-    "Servicios": {
-        "title": "Our services"
-    },
-
-    "Footer": {
-        "copyright": "2024 COYC Miner | Regulation.",
-        "copyright2": "All rights reserved.",
-        "about": " About",
-        "team": "The team",
-        "services": "Services",
-        "location": "Santiago of Chile"
+        "title": "Héctor Matcovich González",
+        "subtitle": "Diseñador Web",
+        "button": "Portafolio",
+        "button2": "Hablemos"
     }
 }

@@ -1,17 +1,9 @@
 'use client'
-// import Image from 'next/image'
 import React from 'react'
-import { secundaryFont } from '@/config/fonts';
 import { Element } from 'react-scroll';
-import { useTranslations } from 'next-intl';
-import { FaMapMarkerAlt } from 'react-icons/fa';
-import { MdMail } from 'react-icons/md';
-import { ContactForm } from './ContactForm';
-import { Divider } from '@nextui-org/divider';
 
 
 export const Contacto = () => {
-    const t = useTranslations("Contacto");
     return (
         <Element name="contacto">
             <div className="bg-contacto"></div>

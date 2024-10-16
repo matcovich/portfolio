@@ -14,21 +14,5 @@
         "subtitle": "Diseñador Web",
         "button": "Portafolio",
         "button2": "Hablemos"
-    },
-
-    "Contacto": {
-        "title": "Hablemos",
-        "description": "Contacto",
-        "direccionSocio2": "Apoquindo N°3910 piso 10, Las Condes ",
-        "correoSocio2": "info@coyc.cl"
-    },
-
-    "Footer": {
-        "copyright": "2024 COYC Minería| Regulación.",
-        "copyright2": "Todos los derechos reservados.",
-        "about": "Nosotros",
-        "team": "El equipo",
-        "services": "Servicios",
-        "location": "Santiago de Chile"
     }
 }

@@ -6,10 +6,7 @@ import { IoCloseOutline } from "react-icons/io5"
 import { Link } from 'react-scroll';
 
 import { usePathname } from "next/navigation"
-import { useTranslations } from "next-intl";
 export const Sidebar = () => {
-
-    const t = useTranslations("Menu");
 
     const router = usePathname();
     const isSideMenuopen = useUIStore((state) => state.isSideMenuOpen);
@@ -57,26 +54,26 @@ export const Sidebar = () => {
                             className={`hover:text-orange-200 cursor-pointer`}
                             onClick={() => closeMenu()}
                         >
-                            <span>{t('home')}</span>
+                            <span>Inicio</span>
                         </Link>
                         <Link to="about" spy={true} smooth={true} offset={-94} duration={500}
                             className={`hover:text-orange-200 cursor-pointer`}
                             onClick={() => closeMenu()}
                         >
-                            <span>{t('about')}</span>
+                            <span>Sobre mi</span>
                         </Link>
                         <Link to="projects" spy={true} smooth={true} offset={-94} duration={500}
                             className={`hover:text-orange-200 cursor-pointer`}
                             onClick={() => closeMenu()}
                         >
-                            <span>{t('projects')}</span>
+                            <span>Proyectos</span>
                         </Link>
 
                         <Link to="contacto" spy={true} smooth={true} offset={-94} duration={500}
                             className={`hover:text-orange-200 cursor-pointer`}
                             onClick={() => closeMenu()}
                         >
-                            <span>{t('contact')}</span>
+                            <span>Contacto</span>
                         </Link>
                 </div>
                 </div>
