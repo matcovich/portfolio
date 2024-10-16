@@ -1,0 +1,152 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #274494;
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --color: #4973ff;
+}
+/*
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+} */
+
+body {
+  scroll-behavior: smooth;
+  transition: scroll-position 2.5s ease-in-out;
+  background: ;
+}
+.active {
+  font-weight: bold;
+}
+
+/* ===== Scrollbar CSS ===== */
+
+::-webkit-scrollbar {
+  scrollbar-width: thin;
+  width: 6px;
+  height: 4px;
+}
+::-webkit-scrollbar-button {
+  width: 1px;
+  height: 2px;
+}
+::-webkit-scrollbar-thumb {
+  background: #666;
+  border: 1px solid #454545;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #58b0f3;
+}
+::-webkit-scrollbar-track {
+  background: #e1e1e1;
+  border: 1px none #ffffff;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #;
+}
+::-webkit-scrollbar-track:active {
+  background: #424242;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+/* =====END Scrollbar CSS ===== */
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+.btn-primary {
+  @apply bg-blue-600 hover:bg-blue-800 text-white py-2 px-4 rounded transition-all;
+}
+
+.btn-secondary {
+  @apply bg-gray-200 hover:bg-gray-300 text-black py-2 px-4 rounded transition-all;
+}
+.mySwiper,
+.swiper {
+  padding: 0 0px 20px !important;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  color: #1d4148 !important;
+  display: none !important;
+}
+
+.bg-contacto {
+  position: fixed;
+  z-index: 9999;
+  top: -300%;
+  left: -150%;
+  height: 600%;
+  width: 600%;
+  -webkit-animation: grain 7s steps(10) infinite;
+  animation: grain 7s steps(10) infinite;
+  background-image: url(/img/noise.png);
+  background-size: 200px;
+  background-repeat: repeat;
+  opacity: 0.25;
+  pointer-events: none;
+}
+
+@media screen and (min-width: 768px) {
+  .mySwiper,
+  .swiper {
+    padding: 0 50px 20px !important;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    color: #1d4148 !important;
+    display: block !important;
+  }
+}
+/* @media screen and (min-width: 1440px) {
+  background-image: linear-gradient(
+    to top,
+    white 0%,
+    white 25%,
+    #1d4148 25%,
+    #1d4148 100%
+  );
+} */
+
+.swiper-notification {
+  opacity: 0 !important;
+}
