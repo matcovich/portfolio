@@ -49,7 +49,7 @@ export const Sidebar = () => {
                 />
                 <div className="flex flex-col justify-center items-center h-full">
 
-                <div className={`font-extralight gap-4 -mt-36 text-white flex flex-col items-center text-2xl`}>
+                <div className={`font-[100] gap-12 -mt-36 text-white flex flex-col items-center text-5xl`}>
                 <Link to="inicio" spy={true} smooth={true} offset={0} duration={500}
                             className={`hover:text-orange-200 cursor-pointer`}
                             onClick={() => closeMenu()}

@@ -45,7 +45,7 @@ export const CardWorks = () => {
                             </p>
                         </div>
 
-                        <div className=" flex w-full items-center justify-between mt-8 shrink-0">
+                        <div className=" flex w-full items-center justify-between mt-8 shrink-0 z-[99999]">
                             <Button variant="light"  onPress={onOpen}>ver más</Button>
                             <div className="flex gap-2">
                             <span className=" text-[#e34c26]"><SiHtml5 size={18} /></span>

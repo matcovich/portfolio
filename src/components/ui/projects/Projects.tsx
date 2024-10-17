@@ -19,7 +19,7 @@ export const Projects = () => {
                     </p>
                 </div>
 
-                <div className="container grid grid-cols-1 md:grid-cols-2 gap-16 mt-16 px-4">
+                <div className="container grid grid-cols-1 lg:grid-cols-2 gap-4  xl:gap-16 mt-16 px-4">
                     <div className="hidden w-full  col-start-1 col-end-3">
                         <div className=" flex gap-6 items-center ">
                             <p className="text-lg font-semibold">filtro:</p>

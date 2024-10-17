@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { montserrat } from "@/config/fonts";
+import { roboto } from "@/config/fonts";
 
 export const metadata: Metadata = {
   title: "Portfolio HMG",
@@ -13,9 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <body
-        className={montserrat.className}
-      >
+      <body className={roboto.className}>
         {children}
       </body>
     </html>

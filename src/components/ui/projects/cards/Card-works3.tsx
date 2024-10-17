@@ -82,6 +82,7 @@ export const CardWorks3 = () => {
                             clickable: true,
                             }}
                         >
+                            <SwiperSlide><Image alt="portfolio" className="object-cover rounded-none object-top" height={275} src="/img/itau.jpg" width="100%" /></SwiperSlide>
                             <SwiperSlide><Image alt="portfolio" className="object-cover rounded-none object-top" height={275} src="/img/itaua.jpg" width="100%" /></SwiperSlide>
                             <SwiperSlide><Image alt="portfolio" className="object-cover rounded-none object-top" height={275} src="/img/iatub.jpg" width="100%" /></SwiperSlide>
                             <SwiperSlide><Image alt="portfolio" className="object-cover rounded-none object-top" height={275} src="/img/itauc.jpg" width="100%" /></SwiperSlide>
