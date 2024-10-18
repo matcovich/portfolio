@@ -1,6 +1,13 @@
+
+
+import {NextUIProvider} from '@nextui-org/react'
+import {ThemeProvider as NextThemesProvider} from "next-themes";
+
+
 import type { Metadata } from "next";
 import "./globals.css";
 import { roboto } from "@/config/fonts";
+
 
 export const metadata: Metadata = {
   title: "Portfolio HMG",
@@ -14,7 +21,11 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body className={roboto.className}>
-        {children}
+        <NextUIProvider>
+          <NextThemesProvider attribute="class" defaultTheme="light">
+              {children}
+          </NextThemesProvider>
+        </NextUIProvider>
       </body>
     </html>
   );

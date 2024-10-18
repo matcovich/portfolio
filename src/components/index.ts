@@ -13,3 +13,6 @@ export * from "./ui/selectlenguage/SelectLenguage"
 export * from "./ui/breadcrumbs/Title";
 export * from "./ui/sidebar/Sidebar";
 export * from "./ui/footer/Footer";
+
+
+export * from "./ui/switcher/ThemeSwitcher";

@@ -53,7 +53,7 @@ export const CardWorks = () => {
                             <span className=" text-[#f0db4f]"><FaJs size={18} /></span>
                             <span className=" text-[#7cc5d9]"><DiReact size={18} /></span>
                             <span className=" text-[#007acc]"><SiTypescript  size={18} /></span>
-                            <span className=" text-[#333222]"><RiNextjsFill size={18} /></span>
+                            <span className=" text-[#333222] dark:bg-slate-50 rounded-full"><RiNextjsFill size={18} /></span>
                             <span className=" text-[#5454ec]"><RiTailwindCssFill size={18} /></span>
                             <span className="hidden  text-[#0275d8]"><FaBootstrap size={18} /></span>
                             <span className="hidden  text-[#fb503b]"><SiLaravel size={18} /></span>

@@ -4,7 +4,7 @@ import { Element } from "react-scroll"
 export const About = () => {
     return (
         <Element name="about">
-            <div className="flex justify-end items-center fade-in relative bg-green-50 h-[100vh] lg:px-32">
+            <div className="flex justify-end items-center fade-in relative bg-green-50 dark:bg-cyan-950 h-[100vh] lg:px-32">
                 <div className="lg:w-4/6 px-8 lg:px-0 ">
                     <h2 className="text-3xl font-bold mb-4">Acerca de mi</h2>
                     <p className="text-lg text-pretty">

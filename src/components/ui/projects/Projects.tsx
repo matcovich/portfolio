@@ -11,7 +11,7 @@ import { CardWorks3 } from "./cards/Card-works3"
 export const Projects = () => {
     return (
         <Element name="projects">
-            <div className="flex flex-col gap-4 justify-start items-center fade-in relative h-[auto] py-20 border-y-2 border-gray-200">
+            <div className="flex flex-col gap-4 justify-start items-center fade-in relative h-[auto] py-20 border-y-2 border-gray-200 dark:border-slate-600 dark:bg-slate-800">
                 <div className="w-4/6 ">
                     <h2 className="text-3xl font-bold mb-4">Proyectos Destacados</h2>
                     <p className="text-lg">
