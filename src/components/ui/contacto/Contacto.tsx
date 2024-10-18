@@ -6,7 +6,7 @@ import { Element } from 'react-scroll';
 export const Contacto = () => {
     return (
         <Element name="contacto">
-            <div className="bg-contacto"></div>
+            <div className="bg-contacto dark:hidden"></div>
             <div  className="h-[740px] text-gray-800   flex flex-col items-center justify-center z-0 py-24 dark:bg-[#253146]">
                 <div className="w-5/6 xl:w-4/6">
                     <h3 className="w-full text-4xl  lg:text-6xl text-gray-400 uppercase lg:first-letter:text-7xl font-extrabold"  >Contacto</h3>
