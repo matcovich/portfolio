@@ -30,11 +30,11 @@ export const Inicio = () => {
                     <h2 className="text-[28px] leading-[46px] mb-2 text-center lg:text-[48px] lg:leading-[52px] font-extralight px-6">Diseñador Web</h2>
                     <div className="hidden md:flex flex-col md:flex-row gap-8 lg:mt-16">
                         <Link  to="portfolio" spy={true} smooth={true} offset={0} duration={500}>
-                            <Button color='secondary' radius="sm" variant="bordered" className='px-12 cursor-pointer dark:text-gray-200 dark:border-gray-200'>Portafolio</Button>
+                            <Button color='secondary' radius="sm" variant="bordered" className='px-12 cursor-pointer dark:text-purple-300 dark:border-purple-300'>Portafolio</Button>
                         </Link>
 
                         <Link  to="contacto" spy={true} smooth={true} offset={-80} duration={500} className='cursor-pointer'>
-                            <Button color='primary' radius="sm" variant="bordered" className='px-12 cursor-pointer dark:text-gray-200 dark:border-gray-200'>Hablemos</Button>
+                            <Button color='primary' radius="sm" variant="bordered" className='px-12 cursor-pointer dark:text-blue-300 dark:border-blue-300'>Hablemos</Button>
                         </Link>
                     </div>
                 </div>
