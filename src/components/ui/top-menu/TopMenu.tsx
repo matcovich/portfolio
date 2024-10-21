@@ -41,9 +41,9 @@ export const TopMenu = () => {
                         <GiHamburgerMenu size={40}  className={isScrolled ? 'dark:text-gray-200 ' : 'text-gray-400 '} />
                     </button>
                     <div className="">
-                        <Link to="inicio" spy={true} smooth={true} offset={0} duration={500}>
+                        <Link to="inicio" spy={true} smooth={true} offset={0} duration={500} className="cursor-pointer">
                             <span className={`text-[38px] font-extralight ${isScrolled ? 'text-white' : 'text-black dark:text-gray-200'}`}>&lt; </span> 
-                            <span className={`text-3xl font-extralight tracking-[-4px]  ${isScrolled ? 'text-white' : 'text-black dark:text-gray-200'}`}>HMG</span>
+                            <span className={`text-3xl font-extralight tracking-[-4px] ${isScrolled ? 'text-white' : 'text-black dark:text-gray-200'}`}>HMG</span>
                             <span className={`text-[38px] font-extralight ${isScrolled ? 'text-white' : 'text-black dark:text-gray-200'}`}> /&gt;</span>
                         </Link>
                     </div>
