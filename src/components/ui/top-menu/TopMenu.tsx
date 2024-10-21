@@ -32,7 +32,7 @@ export const TopMenu = () => {
         <>
             {/* menu dark */}
             <nav className={` fixed top-0 w-full h-[94px] z-[6] transition duration-300 ease-in-out ${isScrolled ? 'bg-black bg-opacity-65' : ''}`}>
-                <div className="container mx-auto px-4 py-6 flex justify-center md:justify-between items-center w-full h-[94px]">
+                <div className="container mx-auto px-4 py-6 flex justify-between items-center w-full h-[94px]">
                     {/**Logo */}
                     <button
                     className="absolute right-4 top-7 "
