@@ -12,6 +12,7 @@ import { Pagination, Scrollbar, A11y, Navigation } from 'swiper/modules';
 import {Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css';
 import 'swiper/css/pagination';
+import { FaAngular, FaSass } from 'react-icons/fa6'
 export const CardWorks4 = () => {
     const {isOpen, onOpen, onOpenChange} = useDisclosure();
     return (
@@ -28,7 +29,7 @@ export const CardWorks4 = () => {
                         alt="portfolio"
                         className="object-cover rounded-none object-top"
                         height={275}
-                        src="/img/itau.jpg"
+                        src="/img/santander.png"
                         width="100%"
                         />
                     </div>
@@ -40,7 +41,7 @@ export const CardWorks4 = () => {
                         </div>
                         <div className="flex flex-col items-start    h-full">
                             <p className="text-[14px] text-foreground/90 mt-2 text-balance ">
-                                
+                            Implementación de interfaces con Angular y Sass, colaborando en la creación de componentes reutilizables para aplicaciones bancarias críticas.
                             </p>
                         </div>
 
@@ -50,14 +51,8 @@ export const CardWorks4 = () => {
                             <span className=" text-[#e34c26]"><SiHtml5 size={18} /></span>
                             <span className=" text-[#264de4]"><DiCss3 size={18} /></span>
                             <span className=" text-[#f0db4f]"><FaJs size={18} /></span>
-                            <span className=" text-[#7cc5d9]"><DiReact size={18} /></span>
-                            <span className=" text-[#007acc]"><SiTypescript  size={18} /></span>
-                            <span className="hidden text-[#333222]"><RiNextjsFill size={18} /></span>
-                            <span className=" text-[#5454ec]"><RiTailwindCssFill size={18} /></span>
-                            <span className="  text-[#0275d8]"><FaBootstrap size={18} /></span>
-                            <span className="hidden  text-[#fb503b]"><SiLaravel size={18} /></span>
-                            <span className="hidden  text-[#8993be]"><SiPhp size={18} /></span>
-                            <span className="hidden  text-[#42b883]"><FaVuejs size={18} /></span>
+                            <span className="text-[#dd0031]"><FaAngular size={18} /></span>
+                            <span className="text-[#cc6699]"><FaSass size={18} /></span>
 
                             </div>
                         </div>
@@ -69,9 +64,8 @@ export const CardWorks4 = () => {
             <ModalContent className="dark:bg-slate-800">
             {(onClose) => (
                 <>
-                <ModalHeader className="flex flex-col gap-1">Desarrollador Frontend en IBM - Itaú</ModalHeader>
+                <ModalHeader className="flex flex-col gap-1">Desarrollador Frontend en Qintess - Santander</ModalHeader>
                 <ModalBody className="text-pretty">
-
                     <div>
                         <Swiper
                             modules={[Pagination,Navigation, Scrollbar, A11y]}
@@ -83,18 +77,18 @@ export const CardWorks4 = () => {
                             clickable: true,
                             }}
                         >
-                            <SwiperSlide><Image alt="portfolio" className="object-cover rounded-none object-top" height={375} src="/img/itau.jpg" width="100%" /></SwiperSlide>
-                            <SwiperSlide><Image alt="portfolio" className="object-cover rounded-none object-top" height={375} src="/img/itaua.jpg" width="100%" /></SwiperSlide>
-                            <SwiperSlide><Image alt="portfolio" className="object-cover rounded-none object-top" height={375} src="/img/iatub.jpg" width="100%" /></SwiperSlide>
-                            <SwiperSlide><Image alt="portfolio" className="object-cover rounded-none object-top" height={375} src="/img/itauc.jpg" width="100%" /></SwiperSlide>
-                            <SwiperSlide><Image alt="portfolio" className="object-cover rounded-none object-top" height={375} src="/img/itaud.jpg" width="100%" /></SwiperSlide>
+
+                            <SwiperSlide><Image alt="portfolio" className="object-cover rounded-none object-top" height={375} src="/img/santnder1.png" width="100%" /></SwiperSlide>
+                            <SwiperSlide><Image alt="portfolio" className="object-cover rounded-none object-top" height={375} src="/img/santnder2.png" width="100%" /></SwiperSlide>
+                            <SwiperSlide><Image alt="portfolio" className="object-cover rounded-none object-top" height={375} src="/img/santnder3.png" width="100%" /></SwiperSlide>
+                            <SwiperSlide><Image alt="portfolio" className="object-cover rounded-none object-top" height={375} src="/img/santnder4.png" width="100%" /></SwiperSlide>
+                            <SwiperSlide><Image alt="portfolio" className="object-cover rounded-none object-top" height={375} src="/img/santnder5.png" width="100%" /></SwiperSlide>
+                            <SwiperSlide><Image alt="portfolio" className="object-cover rounded-none object-top" height={375} src="/img/santnder6.png" width="100%" /></SwiperSlide>
                         </Swiper>
                     </div>
-
-                    <p>Desarrollador Frontend en IBM - Itaú, donde participé en el desarrollo de aplicaciones web para la banca utilizando React.js y TypeScript. Implementé interfaces de usuario optimizadas siguiendo principios de Atomic Design y BEM, asegurando la modularidad y reutilización del código.</p>
-                    <p>Trabajé en la optimización del rendimiento de la aplicación, utilizando tecnologías como Vite y Nginx para mejorar los tiempos de carga y la eficiencia. Colaboré estrechamente con equipos backend para integrar APIs RESTful y servicios de AWS, garantizando la escalabilidad de las soluciones. Además, utilicé Tailwind CSS para un diseño ágil y la personalización de componentes, participando en la integración continua con Git para asegurar la calidad del código en un entorno ágil.</p>
-                    <p>Durante este tiempo, también realicé cursos en IBM, incluyendo temas relacionados con la seguridad de software, y participé en una capacitación intensiva de 3 semanas con evangelizadores de Modyo, liderada por Carlos Solis, para profundizar en el uso de la plataforma y sus mejores prácticas.</p>
-                </ModalBody>
+                    <p>En Qintess - Santander, me desempeñé como Desarrollador Frontend, donde trabajé en la implementación de interfaces utilizando Angular y Sass. Participé activamente en la creación de componentes reutilizables y en la optimización de interfaces para aplicaciones bancarias críticas, aplicando principios de diseño atómico.</p>
+                    <p>Colaboré estrechamente con los equipos backend para asegurar una integración fluida de los servicios, utilizando Git para la integración continua y el versionado de código. También fui responsable de diseño y prototipar interfaces UI/UX utilizando herramientas como Sketch.</p>
+                    </ModalBody>
                 <ModalFooter>
                     <Button color="danger" variant="light" onPress={onClose}>
                     Cerrar
