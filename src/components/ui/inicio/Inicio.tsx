@@ -27,7 +27,7 @@ export const Inicio = () => {
                     >
                         Héctor Matcovich González
                     </h1>
-                    <h2 className="text-[28px] leading-[46px] mb-2 text-center lg:text-[48px] lg:leading-[52px] font-extralight px-6">
+                    <h2 className="text-[28px] leading-[26px] mb-2 text-center lg:text-[48px] lg:leading-[52px] font-extralight px-6">
                     Desarrollador Frontend y Diseñador Web
                     </h2>
 
