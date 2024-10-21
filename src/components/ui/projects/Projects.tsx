@@ -7,6 +7,7 @@ import { FaBootstrap, FaJs, FaPhp, FaVuejs } from "react-icons/fa"
 import { CardWorks } from "./cards/Card-works"
 import { CardWorks2 } from "./cards/Card-works2"
 import { CardWorks3 } from "./cards/Card-works3"
+import { CardWorks4 } from "./cards/Card-works4"
 
 export const Projects = () => {
     return (
@@ -39,6 +40,7 @@ export const Projects = () => {
                     <CardWorks />
                     <CardWorks2/>
                     <CardWorks3/>
+                    <CardWorks4/>
                 </div>
             </div>
         </Element>

@@ -9,16 +9,16 @@ import { Button } from '@nextui-org/button';
 export const Inicio = () => {
     return (
         <Element name="inicio">
-            <div className="container mx-auto h-[calc(100vh)] w-full  inset-0  flex flex-col-reverse justify-start items-center  lg:flex-row    lg:justify-around z-0 bg-white dark:bg-slate-600">
+            <div className="container mx-auto h-[100vh] w-full  flex flex-col-reverse justify-center items-center  lg:flex-row    lg:justify-around z-0 bg-white dark:bg-slate-600">
                 <div className="[clip-path:circle(69%_at_81%_120%)]
                 absolute top-0 w-full h-full bg-[#5341c811] dark:bg-[#c841891d]  z-[2]"></div>
                 <div className="[clip-path:circle(69%_at_1%_160%)]
                 absolute top-0 w-full h-full bg-[#41c8bd11] dark:bg-[#4541c830]  z-[2]"></div>
 
-                <div className="w-full h-[calc(60vh)] md:h-[calc(60vh)] lg:w-1/2 lg:h-auto flex justify-center lg:justify-end items-end lg:items-center">
+                <div className="w-full h-[auto] md:h-[calc(60vh)] lg:w-1/2 lg:h-auto flex justify-center lg:justify-end items-end lg:items-center">
                     <Image src="/img/heroimg.png" width={500} height={500} alt="hero image" className="w-full md:w-[400px] lg:w-[500px]" />
                 </div>
-                <div className="flex flex-col justify-center items-center md:mt-24 lg:mt-0">
+                <div className="flex flex-col lg:w-1/2 justify-center items-center md:mt-24 lg:mt-0  ">
                     <h1
                     className={`
                         text-[28px] leading-[46px] mb-2 text-center lg:text-[62px] lg:leading-[74px] font-normal px-6
@@ -27,7 +27,9 @@ export const Inicio = () => {
                     >
                         Héctor Matcovich González
                     </h1>
-                    <h2 className="text-[28px] leading-[46px] mb-2 text-center lg:text-[48px] lg:leading-[52px] font-extralight px-6">Diseñador Web</h2>
+                    <h2 className="text-[28px] leading-[46px] mb-2 text-center lg:text-[48px] lg:leading-[52px] font-extralight px-6">
+                    Desarrollador Frontend y Diseñador Web
+                    </h2>
 
                     <div className="hidden md:flex flex-col md:flex-row gap-8 lg:mt-16 z-[3]">
 
