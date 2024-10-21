@@ -9,7 +9,7 @@ import { Button } from '@nextui-org/button';
 export const Inicio = () => {
     return (
         <Element name="inicio">
-            <div className=" h-[calc(100vh)] w-full  inset-0  flex flex-col-reverse justify-start items-center  lg:flex-row    lg:justify-around z-0 bg-white dark:bg-slate-600">
+            <div className="container mx-auto h-[calc(100vh)] w-full  inset-0  flex flex-col-reverse justify-start items-center  lg:flex-row    lg:justify-around z-0 bg-white dark:bg-slate-600">
                 <div className="[clip-path:circle(69%_at_81%_120%)]
                 absolute top-0 w-full h-full bg-[#5341c811] dark:bg-[#c841891d]  z-[2]"></div>
                 <div className="[clip-path:circle(69%_at_1%_160%)]

@@ -65,8 +65,8 @@ export const CardWorks2 = () => {
                 </div>
             </CardBody>
         </Card>
-        <Modal isOpen={isOpen} onOpenChange={onOpenChange} size='xl' backdrop='blur' placement="top-center" scrollBehavior="outside">
-            <ModalContent>
+        <Modal isOpen={isOpen} onOpenChange={onOpenChange} size='3xl' backdrop='blur' placement="top-center" scrollBehavior="outside">
+            <ModalContent className="dark:bg-slate-800">
             {(onClose) => (
                 <>
                 <ModalHeader className="flex flex-col gap-1">Quinzio-LPC</ModalHeader>
@@ -75,22 +75,22 @@ export const CardWorks2 = () => {
                     <div>
                         <Swiper
                             modules={[Pagination,Navigation, Scrollbar, A11y]}
-                            spaceBetween={2}
+                            spaceBetween={10}
                             navigation
                             slidesPerView={1}
-                            className='mySwiper my-4 h-[310px] w-full'
+                            className='mySwiper my-4 h-[410px] w-full'
                             pagination={{
                             clickable: true,
                             }}
                         >
-                            <SwiperSlide><Image alt="portfolio" className="object-cover rounded-none object-top" height={275} src="/img/coyc.png" width="100%" /></SwiperSlide>
-                            <SwiperSlide><Image alt="portfolio" className="object-cover rounded-none object-top" height={275} src="/img/coycb.jpg" width="100%" /></SwiperSlide>
+                            <SwiperSlide><Image alt="portfolio" className="object-cover rounded-none object-top" height={375} src="/img/coyc.png" width="100%" /></SwiperSlide>
+                            <SwiperSlide><Image alt="portfolio" className="object-cover rounded-none object-top" height={375} src="/img/coycb.jpg" width="100%" /></SwiperSlide>
                         </Swiper>
                     </div>
 
                     <p>Proyecto freelance para COYC, una firma de abogados boutique que necesitaba una landing page multi-lenguaje en inglés y chino. El objetivo principal fue presentar la misión y visión de la firma de manera clara y accesible para una audiencia global.</p>
-                    <p>Desarrollé una landing page moderna y minimalista utilizando Next.js y React, enfocándome en una navegación intuitiva y una experiencia de usuario fluida. La página está optimizada para cargar rápidamente y adaptarse a dispositivos móviles, lo que asegura una presentación efectiva de los servicios legales de COYC.</p>
-                    <p>La implementación multi-lenguaje con i18n permite a los usuarios cambiar de idioma fácilmente, lo que refuerza la accesibilidad y el alcance internacional de la firma. El diseño limpio y funcional facilita la conversión de leads y destaca la propuesta de valor de COYC en el mercado legal.</p>
+                    <p>Desarrollé una landing page moderna y minimalista utilizando Next.js y React, enfocándome en una navegación intuitiva y una experiencia de usuario fluida. La página está optimizada para cargar rápido y adaptarse a dispositivos móviles, lo que asegura una presentación efectiva de los servicios legales de COYC.</p>
+                    <p>La implementación multi-lenguaje con i18n permite a los usuarios cambiar de idioma facilmente, lo que refuerza la accesibilidad y el alcance internacional de la firma. El diseño limpio y funcional facilita la conversión de leads y destaca la propuesta de valor de COYC en el mercado legal.</p>
                 </ModalBody>
                 <ModalFooter>
                     <Button color="danger" variant="light" onPress={onClose}>

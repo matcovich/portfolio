@@ -133,3 +133,12 @@ body {
 .swiper-notification {
   opacity: 0 !important;
 }
+
+.swiper-pagination-bullet {
+  width: 15px !important;
+  height: 15px !important;
+}
+.swiper-pagination-bullet-active {
+  opacity: var(--swiper-pagination-bullet-opacity, 1);
+  background: #00ffff !important;
+}

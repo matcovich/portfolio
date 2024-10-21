@@ -65,8 +65,8 @@ export const CardWorks = () => {
                 </div>
             </CardBody>
         </Card>
-        <Modal isOpen={isOpen} onOpenChange={onOpenChange} size='xl' backdrop='blur' placement="top-center" scrollBehavior="outside">
-            <ModalContent>
+        <Modal isOpen={isOpen} onOpenChange={onOpenChange} size='3xl' backdrop='blur' placement="top-center" scrollBehavior="outside">
+            <ModalContent className="dark:bg-slate-800">
             {(onClose) => (
                 <>
                 <ModalHeader className="flex flex-col gap-1">Quinzio-LPC</ModalHeader>
@@ -75,19 +75,19 @@ export const CardWorks = () => {
                     <div>
                         <Swiper
                             modules={[Pagination,Navigation, Scrollbar, A11y]}
-                            spaceBetween={2}
+                            spaceBetween={10}
                             navigation
                             slidesPerView={1}
-                            className='mySwiper my-4 h-[310px] w-full'
+                            className='mySwiper my-4  h-[410px] w-full'
                             pagination={{
                             clickable: true,
                             }}
                         >
-                            <SwiperSlide><Image alt="portfolio" className="object-cover rounded-none object-top" height={275} src="/img/quinzio.png" width="100%" /></SwiperSlide>
-                            <SwiperSlide><Image alt="portfolio" className="object-cover rounded-none object-top" height={275} src="/img/quinzio.jpg" width="100%" /></SwiperSlide>
-                            <SwiperSlide><Image alt="portfolio" className="object-cover rounded-none object-top" height={275} src="/img/equipoquinzio.jpg" width="100%" /></SwiperSlide>
-                            <SwiperSlide><Image alt="portfolio" className="object-cover rounded-none object-top" height={275} src="/img/areasqinzio.jpg" width="100%" /></SwiperSlide>
-                            <SwiperSlide><Image alt="portfolio" className="object-cover rounded-none object-top" height={275} src="/img/ventajasquinzio.jpg" width="100%" /></SwiperSlide>
+                            <SwiperSlide><Image alt="portfolio" className="object-cover rounded-none object-top" height={375} src="/img/quinzio.png" width="100%" /></SwiperSlide>
+                            <SwiperSlide><Image alt="portfolio" className="object-cover rounded-none object-top" height={375} src="/img/quinzio.jpg" width="100%" /></SwiperSlide>
+                            <SwiperSlide><Image alt="portfolio" className="object-cover rounded-none object-top" height={375} src="/img/equipoquinzio.jpg" width="100%" /></SwiperSlide>
+                            <SwiperSlide><Image alt="portfolio" className="object-cover rounded-none object-top" height={375} src="/img/areasqinzio.jpg" width="100%" /></SwiperSlide>
+                            <SwiperSlide><Image alt="portfolio" className="object-cover rounded-none object-top" height={375} src="/img/ventajasquinzio.jpg" width="100%" /></SwiperSlide>
                         </Swiper>
                     </div>
 
