@@ -1,6 +1,5 @@
 'use client'
 import { Switch } from "@nextui-org/react";
-import { div } from "framer-motion/client";
 import { useTheme } from "next-themes";
 import { ReactNode, useEffect, useState } from "react";
 import { PiMoonDuotone, PiSunDuotone } from "react-icons/pi";

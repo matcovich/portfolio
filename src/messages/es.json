@@ -1,18 +1,55 @@
 {
     "Menu": {
         "home": "Inicio",
-        "about": "Sobre mi",
+        "about": "Sobre m\u00ed",
         "projects": "Proyectos",
         "contact": "Contacto",
         "idioma": "Idioma",
-        "es": "Español",
-        "en": "Ingles (proximamente)",
-        "zc": "Chino (proximamente)"
+        "es": "Espa\u00f1ol",
+        "en": "English"
     },
     "HomePage": {
-        "title": "Héctor Matcovich González",
-        "subtitle": "Diseñador Web",
+        "title": "H\u00e9ctor Matcovich Gonz\u00e1lez",
+        "subtitle": "Desarrollador Frontend y Dise\u00f1ador Web",
         "button": "Portafolio",
         "button2": "Hablemos"
+    },
+    "About": {
+        "title": "Acerca de m\u00ed",
+        "p1": "Soy un desarrollador frontend con m\u00e1s de 12 a\u00f1os de experiencia en la creaci\u00f3n de interfaces web y m\u00f3viles optimizadas. Me especializo en el uso de tecnolog\u00edas modernas como React, JavaScript, TypeScript, HTML5 y CSS3, y tengo experiencia en la implementaci\u00f3n de soluciones escalables que mejoran la experiencia del usuario. Tambi\u00e9n he trabajado en proyectos donde he utilizado herramientas de desarrollo como Git, Node.js, ESLint y Jest para garantizar la calidad del c\u00f3digo.",
+        "p2": "A lo largo de mi carrera, he trabajado en entornos \u00e1giles, participando activamente en la gesti\u00f3n de tareas con herramientas como Jira, y colaborando estrechamente con dise\u00f1adores para el desarrollo de interfaces utilizando herramientas como Figma. Adem\u00e1s, estoy constantemente aprendiendo nuevas tecnolog\u00edas para mantenerme actualizado y poder contribuir de manera efectiva en proyectos colaborativos."
+    },
+    "Projects": {
+        "title": "Proyectos Destacados",
+        "description": "A continuación, encontrarás algunos de mis proyectos más relevantes, en los que he trabajado recientemente. Cada uno de ellos refleja mi enfoque en la creación de experiencias digitales optimizadas y funcionales, utilizando tecnologías modernas como React, Next.js y Tailwind CSS. Estos trabajos demuestran mi capacidad para resolver desafíos técnicos y colaborar en equipos multidisciplinarios para desarrollar soluciones escalables y atractivas.",
+        "filterLabel": "Filtrar por tecnología:",
+        "clearFilter": "Todos"
+    },
+    "Contact": {
+        "title": "Contacto",
+        "emailLabel": "E-MAIL",
+        "socialLabel": "REDES SOCIALES"
+    },
+    "Cards": {
+        "seeMore": "ver más",
+        "close": "Cerrar",
+        "visitSite": "Ver sitio"
+    },
+    "Footer": {
+        "madeWith": "Hecho con",
+        "credits": "creado con"
+    },
+    "Meta": {
+        "title": "Portfolio | Héctor Matcovich González",
+        "description": "Desarrollador Frontend y Diseñador Web con más de 12 años de experiencia. Especializado en React, TypeScript y Next.js."
+    },
+    "Errors": {
+        "notFoundTitle": "Página no encontrada",
+        "notFoundDescription": "La página que buscas no existe o fue movida.",
+        "notFoundBack": "Volver al inicio",
+        "errorTitle": "Algo salió mal",
+        "errorDescription": "Ocurrió un error inesperado. Por favor, intenta de nuevo.",
+        "errorRetry": "Reintentar",
+        "errorBack": "Volver al inicio"
     }
 }

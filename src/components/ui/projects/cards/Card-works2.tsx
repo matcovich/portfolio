@@ -1,4 +1,6 @@
+'use client'
 import React from 'react'
+import { useTranslations } from 'next-intl';
 
 import { Card, CardBody } from "@nextui-org/card"
 import { Button, Image, Modal, ModalBody, ModalContent, ModalFooter, ModalHeader, useDisclosure } from "@nextui-org/react"
@@ -14,6 +16,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 export const CardWorks2 = () => {
     const {isOpen, onOpen, onOpenChange} = useDisclosure();
+    const t = useTranslations('Cards');
     return (
         <>
         <Card
@@ -46,7 +49,7 @@ export const CardWorks2 = () => {
                         </div>
 
                         <div className=" flex w-full items-center justify-between mt-8 shrink-0">
-                            <Button variant="light"  onPress={onOpen}>ver más</Button>
+                            <Button variant="light"  onPress={onOpen}>{t('seeMore')}</Button>
                             <div className="flex gap-2">
                             <span className=" text-[#e34c26]"><SiHtml5 size={18} /></span>
                             <span className=" text-[#264de4]"><DiCss3 size={18} /></span>
@@ -74,7 +77,7 @@ export const CardWorks2 = () => {
 
                     <div>
                         <Swiper
-                            modules={[Pagination,Navigation, Scrollbar, A11y]}
+                            modules={[Pagination, Navigation, Scrollbar, A11y]}
                             spaceBetween={10}
                             navigation
                             slidesPerView={1}
@@ -94,11 +97,11 @@ export const CardWorks2 = () => {
                 </ModalBody>
                 <ModalFooter>
                     <Button color="danger" variant="light" onPress={onClose}>
-                    Cerrar
+                    {t('close')}
                     </Button>
                     <Button color="primary" variant="light" onPress={onClose}>
                         <a target="_blank" href="https://coyc.vercel.app/es" >
-                        Ver sitio
+                        {t('visitSite')}
                         </a>
                     </Button>
                 </ModalFooter>

@@ -6,6 +6,7 @@ import { FaArrowUp } from 'react-icons/fa6';
 import { useUIStore } from "@/store/ui/ui-store";
 import { GiHamburgerMenu } from 'react-icons/gi';
 import Switcher from '../switcher/Switcher';
+import { SelectLenguage } from '../selectlenguage/SelectLenguage';
 
 
 export const TopMenu = () => {
@@ -48,7 +49,10 @@ export const TopMenu = () => {
                         </Link>
                     </div>
 
-                    <Switcher/>
+                    <div className="flex items-center gap-2">
+                        <SelectLenguage />
+                        <Switcher/>
+                    </div>
 
                 </div>
 

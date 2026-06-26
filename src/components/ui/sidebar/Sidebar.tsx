@@ -2,13 +2,11 @@
 import { useUIStore } from "@/store/ui/ui-store";
 import clsx from "clsx";
 import { IoCloseOutline } from "react-icons/io5"
-
 import { Link } from 'react-scroll';
+import { useTranslations } from 'next-intl';
 
-import { usePathname } from "next/navigation"
 export const Sidebar = () => {
-
-    const router = usePathname();
+    const t = useTranslations('Menu');
     const isSideMenuopen = useUIStore((state) => state.isSideMenuOpen);
     const closeMenu = useUIStore((state) => state.closeSideMenu);
 
@@ -32,7 +30,6 @@ export const Sidebar = () => {
 
             {/* Sidemenu */}
             <nav
-            // todo: efecto de slide
             className={
                 clsx(
                     "fixed top-0 left-0 w-[100%]  h-screen z-20 transform transition-all duration-0",
@@ -54,26 +51,26 @@ export const Sidebar = () => {
                             className={`hover:text-orange-200 cursor-pointer`}
                             onClick={() => closeMenu()}
                         >
-                            <span>Inicio</span>
+                            <span>{t('home')}</span>
                         </Link>
                         <Link to="about" spy={true} smooth={true} offset={-94} duration={500}
                             className={`hover:text-orange-200 cursor-pointer`}
                             onClick={() => closeMenu()}
                         >
-                            <span>Sobre mi</span>
+                            <span>{t('about')}</span>
                         </Link>
                         <Link to="projects" spy={true} smooth={true} offset={-94} duration={500}
                             className={`hover:text-orange-200 cursor-pointer`}
                             onClick={() => closeMenu()}
                         >
-                            <span>Proyectos</span>
+                            <span>{t('projects')}</span>
                         </Link>
 
                         <Link to="contacto" spy={true} smooth={true} offset={-94} duration={500}
                             className={`hover:text-orange-200 cursor-pointer`}
                             onClick={() => closeMenu()}
                         >
-                            <span>Contacto</span>
+                            <span>{t('contact')}</span>
                         </Link>
                 </div>
                 </div>

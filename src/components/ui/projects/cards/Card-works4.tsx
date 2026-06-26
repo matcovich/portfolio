@@ -1,4 +1,6 @@
+'use client'
 import React from 'react'
+import { useTranslations } from 'next-intl';
 
 import { Card, CardBody } from "@nextui-org/card"
 import { Button, Image, Modal, ModalBody, ModalContent, ModalFooter, ModalHeader, useDisclosure } from "@nextui-org/react"
@@ -15,6 +17,7 @@ import 'swiper/css/pagination';
 import { FaAngular, FaSass } from 'react-icons/fa6'
 export const CardWorks4 = () => {
     const {isOpen, onOpen, onOpenChange} = useDisclosure();
+    const t = useTranslations('Cards');
     return (
         <>
         <Card
@@ -46,7 +49,7 @@ export const CardWorks4 = () => {
                         </div>
 
                         <div className=" flex w-full items-center justify-between mt-8 shrink-0">
-                            <Button variant="light"  onPress={onOpen}>ver más</Button>
+                            <Button variant="light"  onPress={onOpen}>{t('seeMore')}</Button>
                             <div className="flex gap-2">
                             <span className=" text-[#e34c26]"><SiHtml5 size={18} /></span>
                             <span className=" text-[#264de4]"><DiCss3 size={18} /></span>
@@ -68,7 +71,7 @@ export const CardWorks4 = () => {
                 <ModalBody className="text-pretty">
                     <div>
                         <Swiper
-                            modules={[Pagination,Navigation, Scrollbar, A11y]}
+                            modules={[Pagination, Navigation, Scrollbar, A11y]}
                             spaceBetween={10}
                             navigation
                             slidesPerView={1}
@@ -91,7 +94,7 @@ export const CardWorks4 = () => {
                     </ModalBody>
                 <ModalFooter>
                     <Button color="danger" variant="light" onPress={onClose}>
-                    Cerrar
+                    {t('close')}
                     </Button>
                 </ModalFooter>
                 </>

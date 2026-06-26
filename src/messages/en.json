@@ -1,18 +1,55 @@
 {
     "Menu": {
-        "home": "Inicio",
-        "about": "Sobre mi",
-        "projects": "Proyectos",
-        "contact": "Contacto",
-        "idioma": "Idioma",
-        "es": "Español",
-        "en": "Ingles (proximamente)",
-        "zc": "Chino (proximamente)"
+        "home": "Home",
+        "about": "About",
+        "projects": "Projects",
+        "contact": "Contact",
+        "idioma": "Language",
+        "es": "Espa\u00f1ol",
+        "en": "English"
     },
     "HomePage": {
-        "title": "Héctor Matcovich González",
-        "subtitle": "Diseñador Web",
-        "button": "Portafolio",
-        "button2": "Hablemos"
+        "title": "H\u00e9ctor Matcovich Gonz\u00e1lez",
+        "subtitle": "Frontend Developer & Web Designer",
+        "button": "Portfolio",
+        "button2": "Let's Talk"
+    },
+    "About": {
+        "title": "About Me",
+        "p1": "I am a frontend developer with over 12 years of experience building optimized web and mobile interfaces. I specialize in modern technologies such as React, JavaScript, TypeScript, HTML5 and CSS3, and I have experience implementing scalable solutions that enhance user experience. I have also worked on projects using development tools such as Git, Node.js, ESLint and Jest to ensure code quality.",
+        "p2": "Throughout my career, I have worked in agile environments, actively participating in task management with tools like Jira, and collaborating closely with designers for interface development using tools like Figma. I am constantly learning new technologies to stay up to date and contribute effectively to collaborative projects."
+    },
+    "Projects": {
+        "title": "Featured Projects",
+        "description": "Below you will find some of my most relevant recent projects. Each of them reflects my focus on creating optimized and functional digital experiences using modern technologies such as React, Next.js and Tailwind CSS. These works demonstrate my ability to solve technical challenges and collaborate in multidisciplinary teams to develop scalable and attractive solutions.",
+        "filterLabel": "Filter by technology:",
+        "clearFilter": "All"
+    },
+    "Contact": {
+        "title": "Contact",
+        "emailLabel": "E-MAIL",
+        "socialLabel": "SOCIAL MEDIA"
+    },
+    "Cards": {
+        "seeMore": "See more",
+        "close": "Close",
+        "visitSite": "Visit site"
+    },
+    "Footer": {
+        "madeWith": "Made with",
+        "credits": "created with"
+    },
+    "Meta": {
+        "title": "Portfolio | Héctor Matcovich González",
+        "description": "Frontend Developer & Web Designer with 12+ years of experience. Specialized in React, TypeScript and Next.js."
+    },
+    "Errors": {
+        "notFoundTitle": "Page not found",
+        "notFoundDescription": "The page you are looking for does not exist or has been moved.",
+        "notFoundBack": "Back to home",
+        "errorTitle": "Something went wrong",
+        "errorDescription": "An unexpected error occurred. Please try again.",
+        "errorRetry": "Try again",
+        "errorBack": "Back to home"
     }
 }

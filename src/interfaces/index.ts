@@ -1,2 +1,2 @@
 
-export * from './equipo.interface'
+export * from './equipo.interface';

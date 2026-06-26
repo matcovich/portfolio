@@ -1,12 +1,13 @@
 'use client'
 import React from 'react'
 import Image from 'next/image'
-
 import { Link } from 'react-scroll';
 import { Element } from 'react-scroll';
 import { Button } from '@nextui-org/button';
+import { useTranslations } from 'next-intl';
 
 export const Inicio = () => {
+    const t = useTranslations('HomePage');
     return (
         <Element name="inicio">
             <div className="h-[100vh]  z-0 bg-white dark:bg-slate-600">
@@ -29,17 +30,17 @@ export const Inicio = () => {
                             Héctor Matcovich González
                         </h1>
                         <h2 className="text-[28px] leading-[26px] mb-2 text-center lg:text-[48px] lg:leading-[52px] font-extralight px-6">
-                        Desarrollador Frontend y Diseñador Web
+                        {t('subtitle')}
                         </h2>
 
                         <div className="hidden md:flex flex-col md:flex-row gap-8 lg:mt-16 z-[3]">
 
                             <Button color='secondary' radius="sm" variant="bordered" className='px-12 cursor-pointer dark:text-purple-300 dark:border-purple-300 p-0'>
-                                <Link to="projects" spy={true} smooth={true} offset={-94} duration={500} className={`cursor-pointer px-12 py-2 rounded-md`}>Portafolio</Link>
+                                <Link to="projects" spy={true} smooth={true} offset={-94} duration={500} className={`cursor-pointer px-12 py-2 rounded-md`}>{t('button')}</Link>
                             </Button>
 
                             <Button color='primary' radius="sm" variant="bordered" className='px-12 cursor-pointer dark:text-blue-300 dark:border-blue-300 p-0'>
-                                <Link  to="contacto" spy={true} smooth={true} offset={-80} duration={500} className='cursor-pointer px-12 py-2 rounded-md'>Hablemos</Link>
+                                <Link  to="contacto" spy={true} smooth={true} offset={-80} duration={500} className='cursor-pointer px-12 py-2 rounded-md'>{t('button2')}</Link>
                             </Button>
                         </div>
                     </div>

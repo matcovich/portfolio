@@ -1,32 +1,17 @@
 
-
-import {NextUIProvider} from '@nextui-org/react'
-import {ThemeProvider as NextThemesProvider} from "next-themes";
-
-
-import type { Metadata } from "next";
 import "./globals.css";
 import { roboto } from "@/config/fonts";
+import { getLocale } from 'next-intl/server';
 
-
-export const metadata: Metadata = {
-  title: "Portfolio HMG",
-  description: "Héctor Matcovich González",
-};
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const locale = await getLocale();
   return (
-    <html lang="es">
-      <body className={roboto.className}>
-        <NextUIProvider>
-          <NextThemesProvider attribute="class" defaultTheme="light">
-              {children}
-          </NextThemesProvider>
-        </NextUIProvider>
-      </body>
+    <html lang={locale} suppressHydrationWarning>
+      <body className={roboto.className}>{children}</body>
     </html>
   );
 }

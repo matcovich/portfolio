@@ -7,5 +7,12 @@ export interface IEquipo {
     description: string;
     email: string;
     phone: string;
-    slugs: string
+    slugs: string;
+}
+
+export interface IAreaPractica {
+    id: number;
+    title: string;
+    image: string;
+    description: string;
 }
